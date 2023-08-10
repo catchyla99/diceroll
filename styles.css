@@ -1,0 +1,42 @@
+*{
+background-color: rgb(209, 189, 189);
+}
+
+.result,.dice{
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+
+}
+
+.result{
+  font-size: 60px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+span{
+text-align: center;
+}
+
+.dice>span{
+  font-size: 50px;
+  color: rgb(10, 106, 29);
+}
+
+@media (max-width:500px){
+  .result{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .dice>span{
+    font-size: 20px;
+    color: rgb(10, 106, 29);
+  }
+
+  img{
+    width: 100px;
+  }
+}
